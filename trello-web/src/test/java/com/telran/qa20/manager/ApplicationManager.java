@@ -1,5 +1,6 @@
+package com.telran.qa20.manager;
+
 import org.openqa.selenium.By;
-import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
@@ -9,6 +10,7 @@ public class ApplicationManager {
   Board board;
   SessionHelper session;
   WebDriver wd;
+  Teams teams;
 
   public void init() throws InterruptedException {
     wd = new ChromeDriver();
@@ -18,6 +20,7 @@ public class ApplicationManager {
     session.login("elena.telran@yahoo.com", "12345.com");
 
     board = new Board(wd);
+    teams = new Teams(wd);
   }
 
   public void stop() {
@@ -51,6 +54,10 @@ public class ApplicationManager {
 
   public SessionHelper getSession() {
     return session;
+  }
+
+  public Teams getTeams() {
+    return teams;
   }
 }
 

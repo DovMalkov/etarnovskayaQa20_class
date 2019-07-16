@@ -1,3 +1,5 @@
+package com.telran.qa20.manager;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
