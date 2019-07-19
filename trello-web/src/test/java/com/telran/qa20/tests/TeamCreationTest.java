@@ -1,7 +1,6 @@
 package com.telran.qa20.tests;
 
-import org.openqa.selenium.By;
-import org.testng.Assert;
+import com.telran.qa20.model.Team;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
@@ -15,17 +14,21 @@ public class TeamCreationTest extends TestBase {
 
     @Test
     public void createTeam() throws InterruptedException {
-        int before= app.getTeams().getTeamsCount();
+      //  int before= app.getTeams().getTeamsCount();
 
         app.clickOnPlusButtonOnHeader();
         app.getTeams().selectTeamGroup();
-        app.getTeams().typeTeamName("QA-20"+System.currentTimeMillis());
+
+        app.getTeams().fillTeamForm(new Team()
+                .withTeamName("QA-20" + System.currentTimeMillis()));
+
+
         app.getSession().pause(7000);
         app.getTeams().submitCreateTeam();
         app.returnToHomePage();
 
-        int after = app.getTeams().getTeamsCount();
-        Assert.assertEquals(after,before+1);
+  //      int after = app.getTeams().getTeamsCount();
+      //  Assert.assertEquals(after,before+1);
 
     }
 

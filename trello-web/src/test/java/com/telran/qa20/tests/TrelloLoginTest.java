@@ -4,7 +4,7 @@ import org.testng.annotations.Test;
 
 public class TrelloLoginTest  extends  TestBase{
 
-  @Test
+  @Test(enabled = false)
   public void loginTest() throws InterruptedException {
     app.getSession().clickLoginButton();
     app.getSession().fillLoginForm("elena.telran@yahoo.com", "12345.com");
