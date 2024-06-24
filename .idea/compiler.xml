@@ -8,6 +8,8 @@
       <module name="selenium-tests_test" target="1.8" />
       <module name="selenium-web-tests_main" target="1.8" />
       <module name="selenium-web-tests_test" target="1.8" />
+      <module name="supers-android_main" target="1.8" />
+      <module name="supers-android_test" target="1.8" />
       <module name="trello-web_main" target="1.8" />
       <module name="trello-web_test" target="1.8" />
     </bytecodeTargetLevel>

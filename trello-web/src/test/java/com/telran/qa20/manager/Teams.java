@@ -3,6 +3,8 @@ package com.telran.qa20.manager;
 import com.telran.qa20.model.Team;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 
 public class Teams extends HelperBase{
 
@@ -32,6 +34,15 @@ public class Teams extends HelperBase{
     }
 
         public void typeTeamDescription(String teamDescription) {
-        type(By.cssSelector("[name = desc]"), teamDescription);
+        if(isElementPresent(By.cssSelector("textarea[name = desc]"))){
+            type(By.cssSelector("textarea[name = desc]"), teamDescription);
+        } else
+        type(By.cssSelector("form [name = desc]"), teamDescription);
+    }
+
+    public void changePhoto(){
+        Actions actions= new Actions(wd);
+        WebElement photo = wd.findElement(By.cssSelector(""));
+        actions.moveToElement(photo).click().perform();
     }
 }

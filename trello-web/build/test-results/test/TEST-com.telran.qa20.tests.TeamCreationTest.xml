@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.telran.qa20.tests.TeamCreationTest" tests="5" skipped="5" failures="0" errors="0" timestamp="2019-08-08T08:17:24" hostname="Lena-Toshiba" time="0.019">
+  <properties/>
+  <testcase name="createTeamDataProvider" classname="com.telran.qa20.tests.TeamCreationTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="createTeamDataProvider" classname="com.telran.qa20.tests.TeamCreationTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="createTeamDataProvider" classname="com.telran.qa20.tests.TeamCreationTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="createTeamDataProvider" classname="com.telran.qa20.tests.TeamCreationTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="createTeamDataProvider" classname="com.telran.qa20.tests.TeamCreationTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

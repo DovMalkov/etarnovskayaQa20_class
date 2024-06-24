@@ -8,6 +8,9 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/selenium-web-tests.iml" filepath="$PROJECT_DIR$/.idea/modules/selenium-web-tests.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/selenium-web-tests_main.iml" filepath="$PROJECT_DIR$/.idea/modules/selenium-web-tests_main.iml" group="selenium-web-tests" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/selenium-web-tests_test.iml" filepath="$PROJECT_DIR$/.idea/modules/selenium-web-tests_test.iml" group="selenium-web-tests" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/supers-android.iml" filepath="$PROJECT_DIR$/.idea/modules/supers-android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/supers-android_main.iml" filepath="$PROJECT_DIR$/.idea/modules/supers-android_main.iml" group="supers-android" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/supers-android_test.iml" filepath="$PROJECT_DIR$/.idea/modules/supers-android_test.iml" group="supers-android" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/trello-web.iml" filepath="$PROJECT_DIR$/.idea/modules/trello-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/trello-web_main.iml" filepath="$PROJECT_DIR$/.idea/modules/trello-web_main.iml" group="trello-web" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/trello-web_test.iml" filepath="$PROJECT_DIR$/.idea/modules/trello-web_test.iml" group="trello-web" />

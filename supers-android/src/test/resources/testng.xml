@@ -1,0 +1,22 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Trello" verbose="1" >
+    <test name="webSmokey" >
+        <classes>
+            <class name="com.tr.trelloTests.tests.LoginTests" />
+            <class name="com.tr.trelloTests.tests.BoardCreationTests" />
+            <class name="com.tr.trelloTests.tests.BoardDeletionTests" />
+            <class name="com.tr.trelloTests.tests.TeamCreationTests" />
+
+
+        </classes>
+    </test>
+
+    <test name="web-Regression">
+        <classes>
+            <class name="com.tr.trelloTests.tests.LoginTests"/>
+            <class name="com.tr.trelloTests.tests.TeamCreationTests"/>
+            <class name="com.tr.trelloTests.tests.BoardCreationTests" />
+        </classes>
+    </test>
+</suite>

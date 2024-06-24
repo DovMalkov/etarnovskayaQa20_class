@@ -22,6 +22,8 @@ public class BoardCreationTests  extends TestBase{
     app.getBoard().confirmBoardCreation();
     app.pause(10000);
     app.returnToHomePage();
+    app.returnToHomePage();
+
     app.pause(7000);
 
  int after = app.getBoard().getPersonalBoardsCount();

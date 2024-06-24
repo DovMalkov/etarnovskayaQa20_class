@@ -1,5 +1,7 @@
 package com.telran.qa20.tests;
 
+import org.openqa.selenium.By;
+import org.openqa.selenium.interactions.Actions;
 import org.testng.annotations.Test;
 
 public class TrelloLoginTest  extends  TestBase{
@@ -11,6 +13,11 @@ public class TrelloLoginTest  extends  TestBase{
     app.getSession().pause(3000);
     app.getSession().confirmLogin();
     app.getSession().pause(10000);
+
+
+
+
+
 
 
   }

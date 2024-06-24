@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite1" verbose="1" >
+    <test name="Regression_test" >
+        <classes>
+            <class name="com.telran.qa20.tests.TrelloLoginTest" />
+            <class name="com.telran.qa20.tests.TeamCreationTest" />
+            <class name="com.telran.qa20.tests.BoardCreationTests" />
+
+        </classes>
+    </test>
+</suite>
